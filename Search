@@ -18,7 +18,7 @@ public class Puzzel {
 		    System.out.println(phr);
 		    String y = "0000000000000000000ffdd712a852e0d4234e6b";
 		    //Double  p= (double) 11221733000;
-		    double r =4.7907E10;
+		    double r =1.79502E11;
 			for(	;phr.compareTo(y)>0; r++) {
 				x = aleatoireX();
 				phr = haSha1(x,npx);
